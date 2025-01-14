@@ -1,0 +1,45 @@
+@import url(mapel.css);
+
+body {
+    display: grid;
+    /* grid-column: 1; */
+    /* justify-content: center; */
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    padding: 0 30vh;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+}
+
+.content {
+    padding: 50px;
+}
+
+.judul {
+    margin: 50px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+#hari td,
+.waktu,
+.hari {
+    background-color: #ffee93;
+    padding: 20px;
+    font-weight: bold;
+}
+
+#istirahat {
+    background-color: #7c7c7c;
+    font-weight: bold;
+}
+
+td {
+    padding: 5px;
+    border: solid black 3px;
+}
