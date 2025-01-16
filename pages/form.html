@@ -4,19 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>formulir</title>
+	<link rel="stylesheet" href="/style/style.css" />
 </head>
 <body>
-    <div>
-    <h3><a href="tag.html">kembali</a><br></h3>
-    <p>data diri</p>
-    <form method="get">
-        Nama depan : <input type="text"
-    name="nama_depan"><br><br>
+        <h3><a class="kembali" href="index.html">Kembali</a><br></h3>
+        <p>data diri</p>
+        <form method="get">
+            Nama depan : <input type="text"
+            name="nama_depan"><br><br>
         Nama belakang : <input type="text"
     name="nama_belakang"></br><br>
-    </div>
 
-    <div>
      <p><b>piih provinsi</b></p>
     <input type="checkbox" name="provinsi" value="Bali">bali<br>
     <input type="checkbox" name="provinsi" value="ntt">ntt<br>
@@ -29,7 +27,7 @@
     <br><br> password : <input type="password" name="password" maxlength="8"><br>
     </form>
     <br>
-    <select name="kota">
+    <select name="kota" class="submit-button">
         <option value="pilih">pilih</option>
         <option value="kota denpasar">denpasar</option>
         <option value="kota surabaya">surabaya</option>
@@ -37,7 +35,7 @@
         <option value="kota singaraja">singaraja</option>
     </select>
     <br><br>
-    <input type=submit name="submit" value="submit">
+    <input type=submit name="submit" value="submit" class="submit-button">
     </div>
     </form>
 </body>
