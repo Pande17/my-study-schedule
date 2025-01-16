@@ -1,45 +1,102 @@
 @import url(mapel.css);
 
 body {
-    display: grid;
-    /* grid-column: 1; */
-    /* justify-content: center; */
-    align-items: center;
-    text-align: center;
-    margin: 0;
-    padding: 0 30vh;
-    font-family: Arial, sans-serif;
-    background-color: #ffffff;
+	display: grid;
+	/* grid-column: 1; */
+	/* justify-content: center; */
+	align-items: center;
+	text-align: center;
+	margin: 0;
+	padding: 0 30vh;
+	font-family: Arial, sans-serif;
+	background-color: #ffffff;
 }
 
 .content {
-    padding: 50px;
+	padding: 50px;
 }
 
 .judul {
-    margin: 50px;
+	margin: 50px;
 }
 
 table {
-    width: 100%;
-    border-collapse: collapse;
-    text-align: center;
+	width: 100%;
+	border-collapse: collapse;
+	text-align: center;
 }
 
 #hari td,
 .waktu,
 .hari {
-    background-color: #ffee93;
-    padding: 20px;
-    font-weight: bold;
+	background-color: #ffee93;
+	padding: 20px;
+	font-weight: bold;
 }
 
 #istirahat {
-    background-color: #7c7c7c;
-    font-weight: bold;
+	background-color: #7c7c7c;
+	font-weight: bold;
 }
 
 td {
-    padding: 5px;
-    border: solid black 3px;
+	padding: 5px;
+	border: solid black 3px;
+}
+
+.mainPage {
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	align-content: center;
+	align-self: center;
+}
+
+.media h1,
+audio,
+video {
+    margin-bottom: 40px;
+}
+
+p a {
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    border: solid 7px #ec5f5f;
+    background-color: #ec5f5f;
+    
+}
+
+.kembali {
+    display: block;
+    text-decoration: none;
+    color: black;
+    border: solid #ec5f5f;
+    background-color: #ec5f5f;
+    border-radius: 50px;
+    width: 100px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.klik {
+    display: block;
+    margin: 20px auto;
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+    background-color: #ec5f5f;
+    border: solid #ec5f5f;
+    border-radius: 50px;
+}
+
+.klik:hover,
+.kembali:hover {
+    border: solid #eeaaaa;
+    background-color: #eeaaaa;
+}
+
+.submit-button {
+    width: 100px;
+    margin: 0 auto;
 }
