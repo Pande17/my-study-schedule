@@ -1,42 +1,54 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>formulir</title>
-	<link rel="stylesheet" href="/style/style.css" />
-</head>
-<body>
-        <h3><a class="kembali" href="index.html">Kembali</a><br></h3>
-        <p>data diri</p>
-        <form method="get">
-            Nama depan : <input type="text"
-            name="nama_depan"><br><br>
-        Nama belakang : <input type="text"
-    name="nama_belakang"></br><br>
-
-     <p><b>piih provinsi</b></p>
-    <input type="checkbox" name="provinsi" value="Bali">bali<br>
-    <input type="checkbox" name="provinsi" value="ntt">ntt<br>
-    <input type="checkbox" name="provinsi" value="papua">papua<br>
-    <input type="checkbox" name="provinsi" value="jawa timur">jawa timur<br>
-    <input type="checkbox" name="provinsi" value="kalimantan">kalimantan<br>
-    <br>
-    <p><b>daftar</b></p>
-    <form> Alamat email: <input type="text" name="email">
-    <br><br> password : <input type="password" name="password" maxlength="8"><br>
-    </form>
-    <br>
-    <select name="kota" class="submit-button">
-        <option value="pilih">pilih</option>
-        <option value="kota denpasar">denpasar</option>
-        <option value="kota surabaya">surabaya</option>
-        <option value="kota batu">batu</option>
-        <option value="kota singaraja">singaraja</option>
-    </select>
-    <br><br>
-    <input type=submit name="submit" value="submit" class="submit-button">
-    </div>
-    </form>
-</body>
-</html>
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Formulir</title>  
+    <link rel="stylesheet" href="/style/style.css" />  
+</head>  
+<body>  
+    <h3><a class="kembali" href="index.html">Kembali</a></h3>  
+    <p>Data Diri</p>  
+    <form method="get">  
+        <label for="nama_depan">Nama Depan:</label>  
+        <input type="text" id="nama_depan" name="nama_depan"><br><br>  
+  
+        <label for="nama_belakang">Nama Belakang:</label>  
+        <input type="text" id="nama_belakang" name="nama_belakang"><br><br>  
+  
+        <p><b>Pilih Provinsi</b></p>  
+        <input type="checkbox" id="bali" name="provinsi" value="Bali">  
+        <label for="bali">Bali</label><br>  
+  
+        <input type="checkbox" id="ntt" name="provinsi" value="ntt">  
+        <label for="ntt">NTT</label><br>  
+  
+        <input type="checkbox" id="papua" name="provinsi" value="papua">  
+        <label for="papua">Papua</label><br>  
+  
+        <input type="checkbox" id="jawa_timur" name="provinsi" value="jawa timur">  
+        <label for="jawa_timur">Jawa Timur</label><br>  
+  
+        <input type="checkbox" id="kalimantan" name="provinsi" value="kalimantan">  
+        <label for="kalimantan">Kalimantan</label><br><br>  
+  
+        <p><b>Daftar</b></p>  
+        <label for="email">Alamat Email:</label>  
+        <input type="text" id="email" name="email"><br><br>  
+  
+        <label for="password">Password:</label>  
+        <input type="password" id="password" name="password" maxlength="8"><br><br>  
+  
+        <label for="kota">Pilih Kota:</label>  
+        <select id="kota" name="kota" class="submit-button">  
+            <option value="pilih">Pilih</option>  
+            <option value="kota denpasar">Denpasar</option>  
+            <option value="kota surabaya">Surabaya</option>  
+            <option value="kota batu">Batu</option>  
+            <option value="kota singaraja">Singaraja</option>  
+        </select><br><br>  
+  
+        <input type="submit" name="submit" value="Submit" class="submit-button">  
+    </form>  
+</body>  
+</html>  
