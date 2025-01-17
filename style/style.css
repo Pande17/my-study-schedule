@@ -55,48 +55,53 @@ td {
 .media h1,
 audio,
 video {
-    margin-bottom: 40px;
+	margin-bottom: 40px;
 }
 
 p a {
-    font-weight: bold;
-    text-decoration: none;
-    color: black;
-    border: solid 7px #ec5f5f;
-    background-color: #ec5f5f;
-    
+	font-weight: bold;
+	text-decoration: none;
+	color: black;
+	border: solid 7px #ec5f5f;
+	background-color: #ec5f5f;
 }
 
 .kembali {
-    display: block;
-    text-decoration: none;
-    color: black;
-    border: solid #ec5f5f;
-    background-color: #ec5f5f;
-    border-radius: 50px;
-    width: 150px;
-    margin: 0 auto;
-    text-align: center;
+	display: block;
+	text-decoration: none;
+	color: black;
+	border: solid #ec5f5f;
+	background-color: #ec5f5f;
+	border-radius: 50px;
+	width: 150px;
+	margin: 0 auto;
+	text-align: center;
 }
 
 .klik {
-    display: block;
-    margin: 20px auto;
-    width: 100px;
-    height: 40px;
-    cursor: pointer;
-    background-color: #ec5f5f;
-    border: solid #ec5f5f;
-    border-radius: 50px;
+	display: block;
+	margin: 20px auto;
+	width: 100px;
+	height: 40px;
+	cursor: pointer;
+	background-color: #ec5f5f;
+	border: solid #ec5f5f;
+	border-radius: 50px;
 }
 
 .klik:hover,
 .kembali:hover {
-    border: solid #eeaaaa;
-    background-color: #eeaaaa;
+	border: solid #eeaaaa;
+	background-color: #eeaaaa;
 }
 
 .submit-button {
-    width: 100px;
-    margin: 0 auto;
+	width: 100px;
+	margin: 0 auto;
+}
+
+img {
+	width: 500px;
+	height: auto;
+	margin-bottom: 30px;
 }
