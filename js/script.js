@@ -16,11 +16,6 @@ function clearForm() {
 		alert('Tidak boleh input data kosong!');
 	} else {
 		alert('Data berhasil terinput!');
-		form.reset(); // Clear the form fields
-		// namaDepan.reset();
-		// namaBelakang.reset();
-		// email.reset();
-		// password.reset();
-		// kota.reset();
+		form.reset();
 	}
 }
